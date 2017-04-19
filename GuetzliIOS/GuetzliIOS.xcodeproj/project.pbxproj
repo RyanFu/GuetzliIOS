@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F458CE651EA73629000E7025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE641EA73629000E7025 /* main.m */; };
+		F458CE681EA73629000E7025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE671EA73629000E7025 /* AppDelegate.m */; };
+		F458CE6B1EA73629000E7025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE6A1EA73629000E7025 /* ViewController.m */; };
+		F458CE701EA73629000E7025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F458CE6F1EA73629000E7025 /* Assets.xcassets */; };
+		F458CE7E1EA73629000E7025 /* GuetzliIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE7D1EA73629000E7025 /* GuetzliIOSTests.m */; };
+		F458CE891EA73629000E7025 /* GuetzliIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE881EA73629000E7025 /* GuetzliIOSUITests.m */; };
+		F458CE9D1EA73903000E7025 /* BaseApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE9A1EA73903000E7025 /* BaseApplication.m */; };
+		F458CE9E1EA73903000E7025 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE9C1EA73903000E7025 /* BaseController.m */; };
+		F458CEA81EA7992B000E7025 /* CoreLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CEA71EA7992B000E7025 /* CoreLogger.m */; };
+		F458CF031EA79BF3000E7025 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAA1EA79BF2000E7025 /* Android.mk */; };
+		F458CF041EA79BF3000E7025 /* Android.mk.save in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAB1EA79BF2000E7025 /* Android.mk.save */; };
+		F458CF051EA79BF3000E7025 /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAC1EA79BF2000E7025 /* Application.mk */; };
+		F458CF061EA79BF3000E7025 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAD1EA79BF2000E7025 /* build.sh */; };
+		F458CF071EA79BF3000E7025 /* butteraugli.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEAF1EA79BF2000E7025 /* butteraugli.cc */; };
+		F458CF081EA79BF3000E7025 /* butteraugli_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB11EA79BF2000E7025 /* butteraugli_main.cc */; };
+		F458CF091EA79BF3000E7025 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB21EA79BF2000E7025 /* Makefile */; };
+		F458CF0A1EA79BF3000E7025 /* butteraugli_comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB31EA79BF2000E7025 /* butteraugli_comparator.cc */; };
+		F458CF0B1EA79BF3000E7025 /* dct_double.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB71EA79BF2000E7025 /* dct_double.cc */; };
+		F458CF0C1EA79BF3000E7025 /* debug_print.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB91EA79BF2000E7025 /* debug_print.cc */; };
+		F458CF0D1EA79BF3000E7025 /* entropy_encode.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEBB1EA79BF2000E7025 /* entropy_encode.cc */; };
+		F458CF0E1EA79BF3000E7025 /* fdct.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEBE1EA79BF2000E7025 /* fdct.cc */; };
+		F458CF0F1EA79BF3000E7025 /* gamma_correct.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEC01EA79BF2000E7025 /* gamma_correct.cc */; };
+		F458CF101EA79BF3000E7025 /* guetzli.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEC21EA79BF2000E7025 /* guetzli.cc */; };
+		F458CF111EA79BF3000E7025 /* idct.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEC31EA79BF3000E7025 /* idct.cc */; };
+		F458CF131EA79BF3000E7025 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F458CECC1EA79BF3000E7025 /* libjpeg.a */; };
+		F458CF141EA79BF3000E7025 /* jpeg_data.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CECE1EA79BF3000E7025 /* jpeg_data.cc */; };
+		F458CF151EA79BF3000E7025 /* jpeg_data_decoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CED01EA79BF3000E7025 /* jpeg_data_decoder.cc */; };
+		F458CF161EA79BF3000E7025 /* jpeg_data_encoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CED21EA79BF3000E7025 /* jpeg_data_encoder.cc */; };
+		F458CF171EA79BF3000E7025 /* jpeg_data_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CED41EA79BF3000E7025 /* jpeg_data_reader.cc */; };
+		F458CF181EA79BF3000E7025 /* jpeg_data_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CED61EA79BF3000E7025 /* jpeg_data_writer.cc */; };
+		F458CF191EA79BF3000E7025 /* jpeg_huffman_decode.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CED91EA79BF3000E7025 /* jpeg_huffman_decode.cc */; };
+		F458CF1A1EA79BF3000E7025 /* order.inc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEDB1EA79BF3000E7025 /* order.inc */; };
+		F458CF1B1EA79BF3000E7025 /* output_image.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEDC1EA79BF3000E7025 /* output_image.cc */; };
+		F458CF1C1EA79BF3000E7025 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEE01EA79BF3000E7025 /* png.c */; };
+		F458CF1D1EA79BF3000E7025 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEE41EA79BF3000E7025 /* pngerror.c */; };
+		F458CF1E1EA79BF3000E7025 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEE51EA79BF3000E7025 /* pngget.c */; };
+		F458CF1F1EA79BF3000E7025 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEE81EA79BF3000E7025 /* pngmem.c */; };
+		F458CF201EA79BF3000E7025 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEE91EA79BF3000E7025 /* pngpread.c */; };
+		F458CF211EA79BF3000E7025 /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEEC1EA79BF3000E7025 /* pngread.c */; };
+		F458CF221EA79BF3000E7025 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEED1EA79BF3000E7025 /* pngrio.c */; };
+		F458CF231EA79BF3000E7025 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEEE1EA79BF3000E7025 /* pngrtran.c */; };
+		F458CF241EA79BF3000E7025 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEEF1EA79BF3000E7025 /* pngrutil.c */; };
+		F458CF251EA79BF3000E7025 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF01EA79BF3000E7025 /* pngset.c */; };
+		F458CF261EA79BF3000E7025 /* pngtest.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF21EA79BF3000E7025 /* pngtest.c */; };
+		F458CF271EA79BF3000E7025 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF31EA79BF3000E7025 /* pngtrans.c */; };
+		F458CF281EA79BF3000E7025 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF41EA79BF3000E7025 /* pngwio.c */; };
+		F458CF291EA79BF3000E7025 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF51EA79BF3000E7025 /* pngwrite.c */; };
+		F458CF2A1EA79BF3000E7025 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF61EA79BF3000E7025 /* pngwtran.c */; };
+		F458CF2B1EA79BF3000E7025 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF71EA79BF3000E7025 /* pngwutil.c */; };
+		F458CF2C1EA79BF3000E7025 /* preprocess_downsample.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEF81EA79BF3000E7025 /* preprocess_downsample.cc */; };
+		F458CF2D1EA79BF3000E7025 /* processor.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEFA1EA79BF3000E7025 /* processor.cc */; };
+		F458CF2E1EA79BF3000E7025 /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEFC1EA79BF3000E7025 /* quality.cc */; };
+		F458CF2F1EA79BF3000E7025 /* quantize.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEFE1EA79BF3000E7025 /* quantize.cc */; };
+		F458CF301EA79BF3000E7025 /* score.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CF001EA79BF3000E7025 /* score.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F458CE7A1EA73629000E7025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F458CE581EA73629000E7025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F458CE5F1EA73629000E7025;
+			remoteInfo = GuetzliIOS;
+		};
+		F458CE851EA73629000E7025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F458CE581EA73629000E7025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F458CE5F1EA73629000E7025;
+			remoteInfo = GuetzliIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F458CE601EA73629000E7025 /* GuetzliIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuetzliIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F458CE641EA73629000E7025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F458CE661EA73629000E7025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F458CE671EA73629000E7025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F458CE691EA73629000E7025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F458CE6A1EA73629000E7025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F458CE6F1EA73629000E7025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F458CE741EA73629000E7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F458CE791EA73629000E7025 /* GuetzliIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuetzliIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F458CE7D1EA73629000E7025 /* GuetzliIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuetzliIOSTests.m; sourceTree = "<group>"; };
+		F458CE7F1EA73629000E7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F458CE841EA73629000E7025 /* GuetzliIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuetzliIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F458CE881EA73629000E7025 /* GuetzliIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuetzliIOSUITests.m; sourceTree = "<group>"; };
+		F458CE8A1EA73629000E7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F458CE991EA73903000E7025 /* BaseApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseApplication.h; path = GuetzliIOS/BaseApplication.h; sourceTree = SOURCE_ROOT; };
+		F458CE9A1EA73903000E7025 /* BaseApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseApplication.m; path = GuetzliIOS/BaseApplication.m; sourceTree = SOURCE_ROOT; };
+		F458CE9B1EA73903000E7025 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = GuetzliIOS/BaseController.h; sourceTree = SOURCE_ROOT; };
+		F458CE9C1EA73903000E7025 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = GuetzliIOS/BaseController.m; sourceTree = SOURCE_ROOT; };
+		F458CEA61EA7992B000E7025 /* CoreLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLogger.h; sourceTree = "<group>"; };
+		F458CEA71EA7992B000E7025 /* CoreLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLogger.m; sourceTree = "<group>"; };
+		F458CEAA1EA79BF2000E7025 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		F458CEAB1EA79BF2000E7025 /* Android.mk.save */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk.save; sourceTree = "<group>"; };
+		F458CEAC1EA79BF2000E7025 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		F458CEAD1EA79BF2000E7025 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		F458CEAF1EA79BF2000E7025 /* butteraugli.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = butteraugli.cc; sourceTree = "<group>"; };
+		F458CEB01EA79BF2000E7025 /* butteraugli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = butteraugli.h; sourceTree = "<group>"; };
+		F458CEB11EA79BF2000E7025 /* butteraugli_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = butteraugli_main.cc; sourceTree = "<group>"; };
+		F458CEB21EA79BF2000E7025 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F458CEB31EA79BF2000E7025 /* butteraugli_comparator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = butteraugli_comparator.cc; sourceTree = "<group>"; };
+		F458CEB41EA79BF2000E7025 /* butteraugli_comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = butteraugli_comparator.h; sourceTree = "<group>"; };
+		F458CEB51EA79BF2000E7025 /* color_transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_transform.h; sourceTree = "<group>"; };
+		F458CEB61EA79BF2000E7025 /* comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comparator.h; sourceTree = "<group>"; };
+		F458CEB71EA79BF2000E7025 /* dct_double.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dct_double.cc; sourceTree = "<group>"; };
+		F458CEB81EA79BF2000E7025 /* dct_double.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dct_double.h; sourceTree = "<group>"; };
+		F458CEB91EA79BF2000E7025 /* debug_print.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = debug_print.cc; sourceTree = "<group>"; };
+		F458CEBA1EA79BF2000E7025 /* debug_print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug_print.h; sourceTree = "<group>"; };
+		F458CEBB1EA79BF2000E7025 /* entropy_encode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = entropy_encode.cc; sourceTree = "<group>"; };
+		F458CEBC1EA79BF2000E7025 /* entropy_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy_encode.h; sourceTree = "<group>"; };
+		F458CEBD1EA79BF2000E7025 /* fast_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fast_log.h; sourceTree = "<group>"; };
+		F458CEBE1EA79BF2000E7025 /* fdct.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fdct.cc; sourceTree = "<group>"; };
+		F458CEBF1EA79BF2000E7025 /* fdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fdct.h; sourceTree = "<group>"; };
+		F458CEC01EA79BF2000E7025 /* gamma_correct.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gamma_correct.cc; sourceTree = "<group>"; };
+		F458CEC11EA79BF2000E7025 /* gamma_correct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamma_correct.h; sourceTree = "<group>"; };
+		F458CEC21EA79BF2000E7025 /* guetzli.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guetzli.cc; sourceTree = "<group>"; };
+		F458CEC31EA79BF3000E7025 /* idct.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = idct.cc; sourceTree = "<group>"; };
+		F458CEC41EA79BF3000E7025 /* idct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idct.h; sourceTree = "<group>"; };
+		F458CEC81EA79BF3000E7025 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		F458CEC91EA79BF3000E7025 /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		F458CECA1EA79BF3000E7025 /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		F458CECB1EA79BF3000E7025 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		F458CECC1EA79BF3000E7025 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		F458CECD1EA79BF3000E7025 /* jpeg_bit_writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_bit_writer.h; sourceTree = "<group>"; };
+		F458CECE1EA79BF3000E7025 /* jpeg_data.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_data.cc; sourceTree = "<group>"; };
+		F458CECF1EA79BF3000E7025 /* jpeg_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_data.h; sourceTree = "<group>"; };
+		F458CED01EA79BF3000E7025 /* jpeg_data_decoder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_data_decoder.cc; sourceTree = "<group>"; };
+		F458CED11EA79BF3000E7025 /* jpeg_data_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_data_decoder.h; sourceTree = "<group>"; };
+		F458CED21EA79BF3000E7025 /* jpeg_data_encoder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_data_encoder.cc; sourceTree = "<group>"; };
+		F458CED31EA79BF3000E7025 /* jpeg_data_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_data_encoder.h; sourceTree = "<group>"; };
+		F458CED41EA79BF3000E7025 /* jpeg_data_reader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_data_reader.cc; sourceTree = "<group>"; };
+		F458CED51EA79BF3000E7025 /* jpeg_data_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_data_reader.h; sourceTree = "<group>"; };
+		F458CED61EA79BF3000E7025 /* jpeg_data_writer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_data_writer.cc; sourceTree = "<group>"; };
+		F458CED71EA79BF3000E7025 /* jpeg_data_writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_data_writer.h; sourceTree = "<group>"; };
+		F458CED81EA79BF3000E7025 /* jpeg_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_error.h; sourceTree = "<group>"; };
+		F458CED91EA79BF3000E7025 /* jpeg_huffman_decode.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpeg_huffman_decode.cc; sourceTree = "<group>"; };
+		F458CEDA1EA79BF3000E7025 /* jpeg_huffman_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeg_huffman_decode.h; sourceTree = "<group>"; };
+		F458CEDB1EA79BF3000E7025 /* order.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = order.inc; sourceTree = "<group>"; };
+		F458CEDC1EA79BF3000E7025 /* output_image.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = output_image.cc; sourceTree = "<group>"; };
+		F458CEDD1EA79BF3000E7025 /* output_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output_image.h; sourceTree = "<group>"; };
+		F458CEDF1EA79BF3000E7025 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		F458CEE01EA79BF3000E7025 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = png.c; sourceTree = "<group>"; };
+		F458CEE11EA79BF3000E7025 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		F458CEE21EA79BF3000E7025 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		F458CEE31EA79BF3000E7025 /* pngdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngdebug.h; sourceTree = "<group>"; };
+		F458CEE41EA79BF3000E7025 /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngerror.c; sourceTree = "<group>"; };
+		F458CEE51EA79BF3000E7025 /* pngget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngget.c; sourceTree = "<group>"; };
+		F458CEE61EA79BF3000E7025 /* pnginfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnginfo.h; sourceTree = "<group>"; };
+		F458CEE71EA79BF3000E7025 /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		F458CEE81EA79BF3000E7025 /* pngmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngmem.c; sourceTree = "<group>"; };
+		F458CEE91EA79BF3000E7025 /* pngpread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngpread.c; sourceTree = "<group>"; };
+		F458CEEA1EA79BF3000E7025 /* pngprefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngprefix.h; sourceTree = "<group>"; };
+		F458CEEB1EA79BF3000E7025 /* pngpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngpriv.h; sourceTree = "<group>"; };
+		F458CEEC1EA79BF3000E7025 /* pngread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngread.c; sourceTree = "<group>"; };
+		F458CEED1EA79BF3000E7025 /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrio.c; sourceTree = "<group>"; };
+		F458CEEE1EA79BF3000E7025 /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrtran.c; sourceTree = "<group>"; };
+		F458CEEF1EA79BF3000E7025 /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrutil.c; sourceTree = "<group>"; };
+		F458CEF01EA79BF3000E7025 /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngset.c; sourceTree = "<group>"; };
+		F458CEF11EA79BF3000E7025 /* pngstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngstruct.h; sourceTree = "<group>"; };
+		F458CEF21EA79BF3000E7025 /* pngtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtest.c; sourceTree = "<group>"; };
+		F458CEF31EA79BF3000E7025 /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtrans.c; sourceTree = "<group>"; };
+		F458CEF41EA79BF3000E7025 /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwio.c; sourceTree = "<group>"; };
+		F458CEF51EA79BF3000E7025 /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwrite.c; sourceTree = "<group>"; };
+		F458CEF61EA79BF3000E7025 /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwtran.c; sourceTree = "<group>"; };
+		F458CEF71EA79BF3000E7025 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
+		F458CEF81EA79BF3000E7025 /* preprocess_downsample.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = preprocess_downsample.cc; sourceTree = "<group>"; };
+		F458CEF91EA79BF3000E7025 /* preprocess_downsample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preprocess_downsample.h; sourceTree = "<group>"; };
+		F458CEFA1EA79BF3000E7025 /* processor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = processor.cc; sourceTree = "<group>"; };
+		F458CEFB1EA79BF3000E7025 /* processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = processor.h; sourceTree = "<group>"; };
+		F458CEFC1EA79BF3000E7025 /* quality.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quality.cc; sourceTree = "<group>"; };
+		F458CEFD1EA79BF3000E7025 /* quality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quality.h; sourceTree = "<group>"; };
+		F458CEFE1EA79BF3000E7025 /* quantize.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quantize.cc; sourceTree = "<group>"; };
+		F458CEFF1EA79BF3000E7025 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		F458CF001EA79BF3000E7025 /* score.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = score.cc; sourceTree = "<group>"; };
+		F458CF011EA79BF3000E7025 /* score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = score.h; sourceTree = "<group>"; };
+		F458CF021EA79BF3000E7025 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F458CE5D1EA73629000E7025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458CF131EA79BF3000E7025 /* libjpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE761EA73629000E7025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE811EA73629000E7025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F458CE571EA73629000E7025 = {
+			isa = PBXGroup;
+			children = (
+				F458CE621EA73629000E7025 /* GuetzliIOS */,
+				F458CE7C1EA73629000E7025 /* GuetzliIOSTests */,
+				F458CE871EA73629000E7025 /* GuetzliIOSUITests */,
+				F458CE611EA73629000E7025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F458CE611EA73629000E7025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F458CE601EA73629000E7025 /* GuetzliIOS.app */,
+				F458CE791EA73629000E7025 /* GuetzliIOSTests.xctest */,
+				F458CE841EA73629000E7025 /* GuetzliIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F458CE621EA73629000E7025 /* GuetzliIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEA91EA79BF2000E7025 /* libguetzli */,
+				F458CEA51EA7990D000E7025 /* component */,
+				F458CE971EA7368F000E7025 /* resoure */,
+				F458CE981EA7368F000E7025 /* controller */,
+				F458CE661EA73629000E7025 /* AppDelegate.h */,
+				F458CE671EA73629000E7025 /* AppDelegate.m */,
+				F458CE691EA73629000E7025 /* ViewController.h */,
+				F458CE6A1EA73629000E7025 /* ViewController.m */,
+				F458CE6F1EA73629000E7025 /* Assets.xcassets */,
+				F458CE741EA73629000E7025 /* Info.plist */,
+				F458CE631EA73629000E7025 /* Supporting Files */,
+			);
+			path = GuetzliIOS;
+			sourceTree = "<group>";
+		};
+		F458CE631EA73629000E7025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F458CE641EA73629000E7025 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F458CE7C1EA73629000E7025 /* GuetzliIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F458CE7D1EA73629000E7025 /* GuetzliIOSTests.m */,
+				F458CE7F1EA73629000E7025 /* Info.plist */,
+			);
+			path = GuetzliIOSTests;
+			sourceTree = "<group>";
+		};
+		F458CE871EA73629000E7025 /* GuetzliIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F458CE881EA73629000E7025 /* GuetzliIOSUITests.m */,
+				F458CE8A1EA73629000E7025 /* Info.plist */,
+			);
+			path = GuetzliIOSUITests;
+			sourceTree = "<group>";
+		};
+		F458CE971EA7368F000E7025 /* resoure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resoure;
+			sourceTree = "<group>";
+		};
+		F458CE981EA7368F000E7025 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F458CE991EA73903000E7025 /* BaseApplication.h */,
+				F458CE9A1EA73903000E7025 /* BaseApplication.m */,
+				F458CE9B1EA73903000E7025 /* BaseController.h */,
+				F458CE9C1EA73903000E7025 /* BaseController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F458CEA51EA7990D000E7025 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEA61EA7992B000E7025 /* CoreLogger.h */,
+				F458CEA71EA7992B000E7025 /* CoreLogger.m */,
+			);
+			name = component;
+			path = GuetzliIOS/component;
+			sourceTree = SOURCE_ROOT;
+		};
+		F458CEA91EA79BF2000E7025 /* libguetzli */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEAA1EA79BF2000E7025 /* Android.mk */,
+				F458CEAB1EA79BF2000E7025 /* Android.mk.save */,
+				F458CEAC1EA79BF2000E7025 /* Application.mk */,
+				F458CEAD1EA79BF2000E7025 /* build.sh */,
+				F458CEAE1EA79BF2000E7025 /* butteraugli */,
+				F458CEB31EA79BF2000E7025 /* butteraugli_comparator.cc */,
+				F458CEB41EA79BF2000E7025 /* butteraugli_comparator.h */,
+				F458CEB51EA79BF2000E7025 /* color_transform.h */,
+				F458CEB61EA79BF2000E7025 /* comparator.h */,
+				F458CEB71EA79BF2000E7025 /* dct_double.cc */,
+				F458CEB81EA79BF2000E7025 /* dct_double.h */,
+				F458CEB91EA79BF2000E7025 /* debug_print.cc */,
+				F458CEBA1EA79BF2000E7025 /* debug_print.h */,
+				F458CEBB1EA79BF2000E7025 /* entropy_encode.cc */,
+				F458CEBC1EA79BF2000E7025 /* entropy_encode.h */,
+				F458CEBD1EA79BF2000E7025 /* fast_log.h */,
+				F458CEBE1EA79BF2000E7025 /* fdct.cc */,
+				F458CEBF1EA79BF2000E7025 /* fdct.h */,
+				F458CEC01EA79BF2000E7025 /* gamma_correct.cc */,
+				F458CEC11EA79BF2000E7025 /* gamma_correct.h */,
+				F458CEC21EA79BF2000E7025 /* guetzli.cc */,
+				F458CEC31EA79BF3000E7025 /* idct.cc */,
+				F458CEC41EA79BF3000E7025 /* idct.h */,
+				F458CEC61EA79BF3000E7025 /* jpeg */,
+				F458CECD1EA79BF3000E7025 /* jpeg_bit_writer.h */,
+				F458CECE1EA79BF3000E7025 /* jpeg_data.cc */,
+				F458CECF1EA79BF3000E7025 /* jpeg_data.h */,
+				F458CED01EA79BF3000E7025 /* jpeg_data_decoder.cc */,
+				F458CED11EA79BF3000E7025 /* jpeg_data_decoder.h */,
+				F458CED21EA79BF3000E7025 /* jpeg_data_encoder.cc */,
+				F458CED31EA79BF3000E7025 /* jpeg_data_encoder.h */,
+				F458CED41EA79BF3000E7025 /* jpeg_data_reader.cc */,
+				F458CED51EA79BF3000E7025 /* jpeg_data_reader.h */,
+				F458CED61EA79BF3000E7025 /* jpeg_data_writer.cc */,
+				F458CED71EA79BF3000E7025 /* jpeg_data_writer.h */,
+				F458CED81EA79BF3000E7025 /* jpeg_error.h */,
+				F458CED91EA79BF3000E7025 /* jpeg_huffman_decode.cc */,
+				F458CEDA1EA79BF3000E7025 /* jpeg_huffman_decode.h */,
+				F458CEDB1EA79BF3000E7025 /* order.inc */,
+				F458CEDC1EA79BF3000E7025 /* output_image.cc */,
+				F458CEDD1EA79BF3000E7025 /* output_image.h */,
+				F458CEDE1EA79BF3000E7025 /* png */,
+				F458CEF81EA79BF3000E7025 /* preprocess_downsample.cc */,
+				F458CEF91EA79BF3000E7025 /* preprocess_downsample.h */,
+				F458CEFA1EA79BF3000E7025 /* processor.cc */,
+				F458CEFB1EA79BF3000E7025 /* processor.h */,
+				F458CEFC1EA79BF3000E7025 /* quality.cc */,
+				F458CEFD1EA79BF3000E7025 /* quality.h */,
+				F458CEFE1EA79BF3000E7025 /* quantize.cc */,
+				F458CEFF1EA79BF3000E7025 /* quantize.h */,
+				F458CF001EA79BF3000E7025 /* score.cc */,
+				F458CF011EA79BF3000E7025 /* score.h */,
+				F458CF021EA79BF3000E7025 /* stats.h */,
+			);
+			path = libguetzli;
+			sourceTree = "<group>";
+		};
+		F458CEAE1EA79BF2000E7025 /* butteraugli */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEAF1EA79BF2000E7025 /* butteraugli.cc */,
+				F458CEB01EA79BF2000E7025 /* butteraugli.h */,
+				F458CEB11EA79BF2000E7025 /* butteraugli_main.cc */,
+				F458CEB21EA79BF2000E7025 /* Makefile */,
+			);
+			path = butteraugli;
+			sourceTree = "<group>";
+		};
+		F458CEC61EA79BF3000E7025 /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEC71EA79BF3000E7025 /* include */,
+				F458CECC1EA79BF3000E7025 /* libjpeg.a */,
+			);
+			path = jpeg;
+			sourceTree = "<group>";
+		};
+		F458CEC71EA79BF3000E7025 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEC81EA79BF3000E7025 /* jconfig.h */,
+				F458CEC91EA79BF3000E7025 /* jerror.h */,
+				F458CECA1EA79BF3000E7025 /* jmorecfg.h */,
+				F458CECB1EA79BF3000E7025 /* jpeglib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F458CEDE1EA79BF3000E7025 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				F458CEDF1EA79BF3000E7025 /* config.h */,
+				F458CEE01EA79BF3000E7025 /* png.c */,
+				F458CEE11EA79BF3000E7025 /* png.h */,
+				F458CEE21EA79BF3000E7025 /* pngconf.h */,
+				F458CEE31EA79BF3000E7025 /* pngdebug.h */,
+				F458CEE41EA79BF3000E7025 /* pngerror.c */,
+				F458CEE51EA79BF3000E7025 /* pngget.c */,
+				F458CEE61EA79BF3000E7025 /* pnginfo.h */,
+				F458CEE71EA79BF3000E7025 /* pnglibconf.h */,
+				F458CEE81EA79BF3000E7025 /* pngmem.c */,
+				F458CEE91EA79BF3000E7025 /* pngpread.c */,
+				F458CEEA1EA79BF3000E7025 /* pngprefix.h */,
+				F458CEEB1EA79BF3000E7025 /* pngpriv.h */,
+				F458CEEC1EA79BF3000E7025 /* pngread.c */,
+				F458CEED1EA79BF3000E7025 /* pngrio.c */,
+				F458CEEE1EA79BF3000E7025 /* pngrtran.c */,
+				F458CEEF1EA79BF3000E7025 /* pngrutil.c */,
+				F458CEF01EA79BF3000E7025 /* pngset.c */,
+				F458CEF11EA79BF3000E7025 /* pngstruct.h */,
+				F458CEF21EA79BF3000E7025 /* pngtest.c */,
+				F458CEF31EA79BF3000E7025 /* pngtrans.c */,
+				F458CEF41EA79BF3000E7025 /* pngwio.c */,
+				F458CEF51EA79BF3000E7025 /* pngwrite.c */,
+				F458CEF61EA79BF3000E7025 /* pngwtran.c */,
+				F458CEF71EA79BF3000E7025 /* pngwutil.c */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F458CE5F1EA73629000E7025 /* GuetzliIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F458CE8D1EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOS" */;
+			buildPhases = (
+				F458CE5C1EA73629000E7025 /* Sources */,
+				F458CE5D1EA73629000E7025 /* Frameworks */,
+				F458CE5E1EA73629000E7025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuetzliIOS;
+			productName = GuetzliIOS;
+			productReference = F458CE601EA73629000E7025 /* GuetzliIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F458CE781EA73629000E7025 /* GuetzliIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F458CE901EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSTests" */;
+			buildPhases = (
+				F458CE751EA73629000E7025 /* Sources */,
+				F458CE761EA73629000E7025 /* Frameworks */,
+				F458CE771EA73629000E7025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F458CE7B1EA73629000E7025 /* PBXTargetDependency */,
+			);
+			name = GuetzliIOSTests;
+			productName = GuetzliIOSTests;
+			productReference = F458CE791EA73629000E7025 /* GuetzliIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F458CE831EA73629000E7025 /* GuetzliIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F458CE931EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSUITests" */;
+			buildPhases = (
+				F458CE801EA73629000E7025 /* Sources */,
+				F458CE811EA73629000E7025 /* Frameworks */,
+				F458CE821EA73629000E7025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F458CE861EA73629000E7025 /* PBXTargetDependency */,
+			);
+			name = GuetzliIOSUITests;
+			productName = GuetzliIOSUITests;
+			productReference = F458CE841EA73629000E7025 /* GuetzliIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F458CE581EA73629000E7025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "魏宗伟";
+				TargetAttributes = {
+					F458CE5F1EA73629000E7025 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					F458CE781EA73629000E7025 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F458CE5F1EA73629000E7025;
+					};
+					F458CE831EA73629000E7025 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F458CE5F1EA73629000E7025;
+					};
+				};
+			};
+			buildConfigurationList = F458CE5B1EA73629000E7025 /* Build configuration list for PBXProject "GuetzliIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F458CE571EA73629000E7025;
+			productRefGroup = F458CE611EA73629000E7025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F458CE5F1EA73629000E7025 /* GuetzliIOS */,
+				F458CE781EA73629000E7025 /* GuetzliIOSTests */,
+				F458CE831EA73629000E7025 /* GuetzliIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F458CE5E1EA73629000E7025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458CF051EA79BF3000E7025 /* Application.mk in Resources */,
+				F458CE701EA73629000E7025 /* Assets.xcassets in Resources */,
+				F458CF031EA79BF3000E7025 /* Android.mk in Resources */,
+				F458CF041EA79BF3000E7025 /* Android.mk.save in Resources */,
+				F458CF061EA79BF3000E7025 /* build.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE771EA73629000E7025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE821EA73629000E7025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F458CE5C1EA73629000E7025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458CF111EA79BF3000E7025 /* idct.cc in Sources */,
+				F458CF251EA79BF3000E7025 /* pngset.c in Sources */,
+				F458CF291EA79BF3000E7025 /* pngwrite.c in Sources */,
+				F458CF1D1EA79BF3000E7025 /* pngerror.c in Sources */,
+				F458CF1F1EA79BF3000E7025 /* pngmem.c in Sources */,
+				F458CF281EA79BF3000E7025 /* pngwio.c in Sources */,
+				F458CF171EA79BF3000E7025 /* jpeg_data_reader.cc in Sources */,
+				F458CF0A1EA79BF3000E7025 /* butteraugli_comparator.cc in Sources */,
+				F458CF091EA79BF3000E7025 /* Makefile in Sources */,
+				F458CF301EA79BF3000E7025 /* score.cc in Sources */,
+				F458CF101EA79BF3000E7025 /* guetzli.cc in Sources */,
+				F458CF181EA79BF3000E7025 /* jpeg_data_writer.cc in Sources */,
+				F458CF2F1EA79BF3000E7025 /* quantize.cc in Sources */,
+				F458CF071EA79BF3000E7025 /* butteraugli.cc in Sources */,
+				F458CEA81EA7992B000E7025 /* CoreLogger.m in Sources */,
+				F458CF161EA79BF3000E7025 /* jpeg_data_encoder.cc in Sources */,
+				F458CF2A1EA79BF3000E7025 /* pngwtran.c in Sources */,
+				F458CF2D1EA79BF3000E7025 /* processor.cc in Sources */,
+				F458CE6B1EA73629000E7025 /* ViewController.m in Sources */,
+				F458CF2E1EA79BF3000E7025 /* quality.cc in Sources */,
+				F458CF0D1EA79BF3000E7025 /* entropy_encode.cc in Sources */,
+				F458CF2C1EA79BF3000E7025 /* preprocess_downsample.cc in Sources */,
+				F458CF1E1EA79BF3000E7025 /* pngget.c in Sources */,
+				F458CF1C1EA79BF3000E7025 /* png.c in Sources */,
+				F458CF0E1EA79BF3000E7025 /* fdct.cc in Sources */,
+				F458CF231EA79BF3000E7025 /* pngrtran.c in Sources */,
+				F458CF241EA79BF3000E7025 /* pngrutil.c in Sources */,
+				F458CF221EA79BF3000E7025 /* pngrio.c in Sources */,
+				F458CF141EA79BF3000E7025 /* jpeg_data.cc in Sources */,
+				F458CF0B1EA79BF3000E7025 /* dct_double.cc in Sources */,
+				F458CF191EA79BF3000E7025 /* jpeg_huffman_decode.cc in Sources */,
+				F458CF201EA79BF3000E7025 /* pngpread.c in Sources */,
+				F458CF151EA79BF3000E7025 /* jpeg_data_decoder.cc in Sources */,
+				F458CF081EA79BF3000E7025 /* butteraugli_main.cc in Sources */,
+				F458CE9E1EA73903000E7025 /* BaseController.m in Sources */,
+				F458CF2B1EA79BF3000E7025 /* pngwutil.c in Sources */,
+				F458CF271EA79BF3000E7025 /* pngtrans.c in Sources */,
+				F458CE681EA73629000E7025 /* AppDelegate.m in Sources */,
+				F458CF0C1EA79BF3000E7025 /* debug_print.cc in Sources */,
+				F458CF261EA79BF3000E7025 /* pngtest.c in Sources */,
+				F458CE651EA73629000E7025 /* main.m in Sources */,
+				F458CF211EA79BF3000E7025 /* pngread.c in Sources */,
+				F458CE9D1EA73903000E7025 /* BaseApplication.m in Sources */,
+				F458CF1A1EA79BF3000E7025 /* order.inc in Sources */,
+				F458CF1B1EA79BF3000E7025 /* output_image.cc in Sources */,
+				F458CF0F1EA79BF3000E7025 /* gamma_correct.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE751EA73629000E7025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458CE7E1EA73629000E7025 /* GuetzliIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F458CE801EA73629000E7025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458CE891EA73629000E7025 /* GuetzliIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F458CE7B1EA73629000E7025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F458CE5F1EA73629000E7025 /* GuetzliIOS */;
+			targetProxy = F458CE7A1EA73629000E7025 /* PBXContainerItemProxy */;
+		};
+		F458CE861EA73629000E7025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F458CE5F1EA73629000E7025 /* GuetzliIOS */;
+			targetProxy = F458CE851EA73629000E7025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F458CE8B1EA73629000E7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F458CE8C1EA73629000E7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F458CE8E1EA73629000E7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuetzliIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuetzliIOS/libguetzli/jpeg",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F458CE8F1EA73629000E7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuetzliIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GuetzliIOS/libguetzli/jpeg",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F458CE911EA73629000E7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuetzliIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuetzliIOS.app/GuetzliIOS";
+			};
+			name = Debug;
+		};
+		F458CE921EA73629000E7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuetzliIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuetzliIOS.app/GuetzliIOS";
+			};
+			name = Release;
+		};
+		F458CE941EA73629000E7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuetzliIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuetzliIOS;
+			};
+			name = Debug;
+		};
+		F458CE951EA73629000E7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuetzliIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androidyuan.GuetzliIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuetzliIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F458CE5B1EA73629000E7025 /* Build configuration list for PBXProject "GuetzliIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F458CE8B1EA73629000E7025 /* Debug */,
+				F458CE8C1EA73629000E7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F458CE8D1EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F458CE8E1EA73629000E7025 /* Debug */,
+				F458CE8F1EA73629000E7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F458CE901EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F458CE911EA73629000E7025 /* Debug */,
+				F458CE921EA73629000E7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F458CE931EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F458CE941EA73629000E7025 /* Debug */,
+				F458CE951EA73629000E7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F458CE581EA73629000E7025 /* Project object */;
+}
