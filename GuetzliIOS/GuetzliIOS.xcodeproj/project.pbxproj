@@ -16,10 +16,6 @@
 		F458CE9D1EA73903000E7025 /* BaseApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE9A1EA73903000E7025 /* BaseApplication.m */; };
 		F458CE9E1EA73903000E7025 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CE9C1EA73903000E7025 /* BaseController.m */; };
 		F458CEA81EA7992B000E7025 /* CoreLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F458CEA71EA7992B000E7025 /* CoreLogger.m */; };
-		F458CF031EA79BF3000E7025 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAA1EA79BF2000E7025 /* Android.mk */; };
-		F458CF041EA79BF3000E7025 /* Android.mk.save in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAB1EA79BF2000E7025 /* Android.mk.save */; };
-		F458CF051EA79BF3000E7025 /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAC1EA79BF2000E7025 /* Application.mk */; };
-		F458CF061EA79BF3000E7025 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = F458CEAD1EA79BF2000E7025 /* build.sh */; };
 		F458CF071EA79BF3000E7025 /* butteraugli.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEAF1EA79BF2000E7025 /* butteraugli.cc */; };
 		F458CF081EA79BF3000E7025 /* butteraugli_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB11EA79BF2000E7025 /* butteraugli_main.cc */; };
 		F458CF091EA79BF3000E7025 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = F458CEB21EA79BF2000E7025 /* Makefile */; };
@@ -101,10 +97,6 @@
 		F458CE9C1EA73903000E7025 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = GuetzliIOS/BaseController.m; sourceTree = SOURCE_ROOT; };
 		F458CEA61EA7992B000E7025 /* CoreLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLogger.h; sourceTree = "<group>"; };
 		F458CEA71EA7992B000E7025 /* CoreLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLogger.m; sourceTree = "<group>"; };
-		F458CEAA1EA79BF2000E7025 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
-		F458CEAB1EA79BF2000E7025 /* Android.mk.save */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk.save; sourceTree = "<group>"; };
-		F458CEAC1EA79BF2000E7025 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
-		F458CEAD1EA79BF2000E7025 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		F458CEAF1EA79BF2000E7025 /* butteraugli.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = butteraugli.cc; sourceTree = "<group>"; };
 		F458CEB01EA79BF2000E7025 /* butteraugli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = butteraugli.h; sourceTree = "<group>"; };
 		F458CEB11EA79BF2000E7025 /* butteraugli_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = butteraugli_main.cc; sourceTree = "<group>"; };
@@ -308,10 +300,6 @@
 		F458CEA91EA79BF2000E7025 /* libguetzli */ = {
 			isa = PBXGroup;
 			children = (
-				F458CEAA1EA79BF2000E7025 /* Android.mk */,
-				F458CEAB1EA79BF2000E7025 /* Android.mk.save */,
-				F458CEAC1EA79BF2000E7025 /* Application.mk */,
-				F458CEAD1EA79BF2000E7025 /* build.sh */,
 				F458CEAE1EA79BF2000E7025 /* butteraugli */,
 				F458CEB31EA79BF2000E7025 /* butteraugli_comparator.cc */,
 				F458CEB41EA79BF2000E7025 /* butteraugli_comparator.h */,
@@ -534,11 +522,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F458CF051EA79BF3000E7025 /* Application.mk in Resources */,
 				F458CE701EA73629000E7025 /* Assets.xcassets in Resources */,
-				F458CF031EA79BF3000E7025 /* Android.mk in Resources */,
-				F458CF041EA79BF3000E7025 /* Android.mk.save in Resources */,
-				F458CF061EA79BF3000E7025 /* build.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

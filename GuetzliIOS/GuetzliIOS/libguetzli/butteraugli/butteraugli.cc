@@ -29,7 +29,7 @@
 //   * Diffmap - to cluster and build an image of error between the images
 //   * Blur - to hold the smoothing code
 
-#include "butteraugli/butteraugli.h"
+#include "butteraugli.h"
 
 #include <assert.h>
 #include <math.h>

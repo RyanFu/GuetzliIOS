@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <cstdio>
 #include <vector>
-#include "butteraugli/butteraugli.h"
+#include "butteraugli.h"
 
 extern "C" {
 #include "png.h"
