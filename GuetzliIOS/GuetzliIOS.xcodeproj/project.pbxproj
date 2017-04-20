@@ -57,6 +57,7 @@
 		F458CF2E1EA79BF3000E7025 /* quality.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEFC1EA79BF3000E7025 /* quality.cc */; };
 		F458CF2F1EA79BF3000E7025 /* quantize.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CEFE1EA79BF3000E7025 /* quantize.cc */; };
 		F458CF301EA79BF3000E7025 /* score.cc in Sources */ = {isa = PBXBuildFile; fileRef = F458CF001EA79BF3000E7025 /* score.cc */; };
+		F49D3D6E1EA8681800F6B1A6 /* logger.c in Sources */ = {isa = PBXBuildFile; fileRef = F49D3D6D1EA8681800F6B1A6 /* logger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +178,7 @@
 		F458CF001EA79BF3000E7025 /* score.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = score.cc; sourceTree = "<group>"; };
 		F458CF011EA79BF3000E7025 /* score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = score.h; sourceTree = "<group>"; };
 		F458CF021EA79BF3000E7025 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		F49D3D6D1EA8681800F6B1A6 /* logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logger.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +336,7 @@
 				F458CED81EA79BF3000E7025 /* jpeg_error.h */,
 				F458CED91EA79BF3000E7025 /* jpeg_huffman_decode.cc */,
 				F458CEDA1EA79BF3000E7025 /* jpeg_huffman_decode.h */,
+				F49D3D6D1EA8681800F6B1A6 /* logger.c */,
 				F458CEDB1EA79BF3000E7025 /* order.inc */,
 				F458CEDC1EA79BF3000E7025 /* output_image.cc */,
 				F458CEDD1EA79BF3000E7025 /* output_image.h */,
@@ -591,6 +594,7 @@
 				F458CF211EA79BF3000E7025 /* pngread.c in Sources */,
 				F458CE9D1EA73903000E7025 /* BaseApplication.m in Sources */,
 				F458CF1A1EA79BF3000E7025 /* order.inc in Sources */,
+				F49D3D6E1EA8681800F6B1A6 /* logger.c in Sources */,
 				F458CF1B1EA79BF3000E7025 /* output_image.cc in Sources */,
 				F458CF0F1EA79BF3000E7025 /* gamma_correct.cc in Sources */,
 			);
@@ -813,6 +817,7 @@
 				F458CE8F1EA73629000E7025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F458CE901EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -821,6 +826,7 @@
 				F458CE921EA73629000E7025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F458CE931EA73629000E7025 /* Build configuration list for PBXNativeTarget "GuetzliIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -829,6 +835,7 @@
 				F458CE951EA73629000E7025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
